@@ -82,7 +82,7 @@ function gamePlay(){
         if (keys.ArrowUp && player.y > (road.top + 80)) {player.y -= player.speed}
         if (keys.ArrowDown && player.y < (road.bottom - 90)) {player.y += player.speed}
         if (keys.ArrowLeft && player.x > 0) {player.x -= player.speed}
-        if (keys.ArrowRight && player.x < (road.width - 55)) {player.x += player.speed}
+        if (keys.ArrowRight && player.x < (road.width - 65)) {player.x += player.speed}
 
         car.style.top = player.y + "px";
         car.style.left = player.x + "px";
