@@ -20,7 +20,7 @@
     position: absolute;
     background: red;
     bottom: 120px;
-    background-image: url(https://saurav1312.github.io/Road-Rash-Javascript-Desktop-Game/assets/cars.png);
+    background-image: url(assets/cars.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 30%;
